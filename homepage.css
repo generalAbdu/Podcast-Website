@@ -1,0 +1,65 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+body{
+    width:100%;
+    background-image:url("Assets/heroimage2.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    height:900px;
+    
+    
+}
+.gridcontainer{
+   display:grid;
+   grid-template-areas: "griditem0 griditem1";
+   margin-bottom: 10px;
+   margin-top: 15px;
+   gap: 80px;
+   width:100%;
+   padding-left: 10px;
+   padding-right: 10px;
+   justify-content: space-around;
+   position:fixed;
+   
+}
+.topnav{
+    display: flex;
+}
+.griditem1{
+   display: flex;
+   align-self:flex-end;
+}
+.navlink a {
+    text-decoration: none;
+    font-size: 20px;
+    padding: 10px;
+}
+
+button{
+    padding:5px;
+    border-width:2px;
+    width:100px;
+    border-color: rgb(223, 226, 28);
+    box-shadow: 0 2px 2px;
+    border-radius: 30px;
+    border-style: solid;
+}
+input{
+   padding:5px;
+    border-width:2px;
+    width:340px;
+    border-color: rgb(114, 114, 92);
+    box-shadow: 0 2px 2px rgb(114, 114, 92);
+    border-radius: 30px;
+    border-style: solid;
+    outline-style: none;
+} 
+.login{
+    margin-left:20px;
+}
+.signup{
+    margin-left:20px;
+}
